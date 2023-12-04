@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-section {
+  width: auto;
+  height: 3.75rem;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.navbar-title {
+  padding-left: 3rem;
+  padding-top: 0.3rem;
+}
+
+.navbar-category {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.6rem;
+}
+.navbar-category ul {
+  display: flex;
+  padding-right: 3rem;
+}
+.navbar-category ul li {
+  list-style: none;
+  display: flex;
+  margin-left: 4rem;
+}
+
+.home-btn :focus {
+  outline: none;
+  box-shadow: none;
+}
