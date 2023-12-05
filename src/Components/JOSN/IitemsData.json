@@ -6,20 +6,19 @@
     "timestandard": " Tenrox-R1_1235 ",
     "status": "Rejected",
     "bulid": {
-      "progress": "0",
+      "result": "rejected",
       "date": "2023-10-22",
-      "time" : "15:54:95"
-
+      "time": "15:54:95"
     },
     "matrics": {
-      "progress": "0",
+      "result": "rejected",
       "test": "",
       "maintainibility": "",
       "security": "",
       "workmanship": ""
     },
     "unittest": {
-      "progress": "0",
+      "result": "rejected",
       "piecharts": [
         {
           "value": "45"
@@ -31,7 +30,7 @@
       "codecover": "90"
     },
     "fuctionaltest": {
-      "progress": "0",
+      "result": "rejected",
       "piecharts": [
         {
           "value": "77"
@@ -50,19 +49,21 @@
     "timestandard": " Tenrox-R1_1235 ",
     "status": "Pending",
     "bulid": {
-      "progress": "40",
-      "test": "50"
+      "test": "50",
+      "result": "rejected",
+      "date": "2023-10-22",
+      "time": "15:54:95"
     },
     "matrics": {
-      "progress": "70",
+      "result": "success",
       "test": "10",
       "maintainibility": "50",
       "security": "40",
       "workmanship": "70"
     },
     "unittest": {
-      "progress": "50",
-      "piecharts": [
+      "result": "pending",
+       "piecharts": [
         {
           "value": "77"
         },
@@ -73,7 +74,7 @@
       "codecover": "70"
     },
     "fuctionaltest": {
-      "progress": "20",
+      "result": "success",
       "piecharts": [
         {
           "value": "77"
@@ -92,18 +93,20 @@
     "timestandard": " Tenrox-R1_1235 ",
     "status": "Success",
     "bulid": {
-      "progress": "100",
-      "test": "10"
+      "result": "success",
+      "test": "10",
+      "date": "2023-10-22",
+      "time": "15:54:95"
     },
     "matrics": {
-      "progress": "100",
+      "result": "success",
       "test": "80",
       "maintainibility": "50",
       "security": "40",
       "workmanship": "70"
     },
     "unittest": {
-      "progress": "100",
+      "result": "success",
       "piecharts": [
         {
           "value": "77"
@@ -115,7 +118,7 @@
       "codecover": "90"
     },
     "fuctionaltest": {
-      "progress": "100",
+      "result": "success",
       "piecharts": [
         {
           "value": "77"
@@ -135,18 +138,20 @@
     "timestandard": " Deeksha Srivastava",
     "status": "Runnung",
     "bulid": {
-      "progress": "50",
-      "test": "10"
+      "result": "pending",
+      "test": "10",
+      "date": "2023-10-22",
+      "time": "15:54:95"
     },
     "matrics": {
-      "progress": "20",
+      "result": "success",
       "test": "10",
       "maintainibility": "30",
       "security": "0",
       "workmanship": "80"
     },
     "unittest": {
-      "progress": "70",
+      "result": "rejected",
       "piecharts": [
         {
           "value": "30"
@@ -158,7 +163,7 @@
       "codecover": "45"
     },
     "fuctionaltest": {
-      "progress": "47",
+      "result": "rejected",
       "piecharts": [
         {
           "value": "9"
@@ -170,6 +175,4 @@
       "codecover": "25"
     }
   }
-
-
 ]

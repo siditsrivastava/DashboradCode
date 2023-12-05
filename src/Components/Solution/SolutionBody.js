@@ -94,7 +94,7 @@ const SolutionBody = (props) => {
                     </div>
                     <p className="time">
                       ISODate(
-                      {props.data.bulid.date + " : " + props.data.bulid.time})
+                      {props.data.bulid.date + " :" + props.data.bulid.time})
                     </p>
                   </div>
                   <div className="unit-test">
@@ -110,6 +110,15 @@ const SolutionBody = (props) => {
                     <div className="code-cover-box">
                       Code Cover {props.data.fuctionaltest.codecover + "%"}
                     </div>
+                  </div>
+                  <div className="result-section">
+                  <br></br>
+                        <h6>
+                          Result
+                        </h6>
+                       <p>Change Rejection</p>
+                       <h3>Reduction</h3>
+                       <button className="btn">Find Issues</button>
                   </div>
                 </div>
               </td>
@@ -166,7 +175,7 @@ const SolutionBody = (props) => {
                     </div>
                     <p className="time">
                       ISODate(
-                      {props.data.bulid.date + " : " + props.data.bulid.time})
+                      {props.data.bulid.date + " :" + props.data.bulid.time})
                     </p>
                   </div>
                   <div className="unit-test">
@@ -182,6 +191,15 @@ const SolutionBody = (props) => {
                     <div className="code-cover-box">
                       Code Cover {props.data.fuctionaltest.codecover + "%"}
                     </div>
+                  </div>
+                  <div className="result-section">
+                  <br></br>
+                        <h6>
+                          Result
+                        </h6>
+                       <p>Change Rejection</p>
+                       <h3>Reduction</h3>
+                       <button className="btn">Find Issues</button>
                   </div>
                 </div>
               </td>
@@ -238,7 +256,7 @@ const SolutionBody = (props) => {
                     </div>
                     <p className="time">
                       ISODate(
-                      {props.data.bulid.date + " : " + props.data.bulid.time})
+                      {props.data.bulid.date + " :" + props.data.bulid.time})
                     </p>
                   </div>
                   <div className="unit-test">
@@ -254,6 +272,15 @@ const SolutionBody = (props) => {
                     <div className="code-cover-box">
                       Code Cover {props.data.fuctionaltest.codecover + "%"}
                     </div>
+                  </div>
+                  <div className="result-section">
+                  <br></br>
+                        <h6>
+                          Result
+                        </h6>
+                       <p>Change Rejection</p>
+                       <h3>Reduction</h3>
+                       <button className="btn">Find Issues</button>
                   </div>
                 </div>
               </td>
@@ -310,7 +337,7 @@ const SolutionBody = (props) => {
                     </div>
                     <p className="time">
                       ISODate(
-                      {props.data.bulid.date + " : " + props.data.bulid.time})
+                      {props.data.bulid.date + " :" + props.data.bulid.time})
                     </p>
                   </div>
                   <div className="unit-test">
@@ -326,6 +353,15 @@ const SolutionBody = (props) => {
                     <div className="code-cover-box">
                       Code Cover {props.data.fuctionaltest.codecover + "%"}
                     </div>
+                  </div>
+                  <div className="result-section">
+                  <br></br>
+                        <h6>
+                          Result
+                        </h6>
+                       <p>Change Rejection</p>
+                       <h3>Reduction</h3>
+                       <button className="btn">Find Issues</button>
                   </div>
                 </div>
               </td>

@@ -16,6 +16,7 @@
 .progress{
   width:50px;
   height: 22px;
+  /* background-color: red !important; */
 }
 
 .systemData {
@@ -24,7 +25,7 @@
 }
 
 .arrow-box {
-  width: 15rem;
+  width: 17rem;
   height:17rem;
   background-color: rgb(176, 176, 231);
   display: flex;
@@ -44,10 +45,11 @@
   flex-wrap: wrap;
   text-align: center;
 }
+
 .right-arrow {
-  width: 4.5rem;
+  width: 5rem;
   height: 3rem;
-  margin-left: 0.6rem;
+  margin-left: 0.8rem;
   margin-top: 0.9rem;
   background-color: #9ADE7B;
   padding-top: 1rem;
@@ -64,7 +66,7 @@
 }
 
 .down-arrow {
-  width: 4.5rem;
+  width: 5rem;
   height: 4rem;
   background-color: #9ADE7B;
   margin-top: 0.9rem;
@@ -83,7 +85,7 @@
 }
 
 .upper-arrow {
-  width: 4rem;
+  width: 5rem;
   height: 4rem;
   background-color: #9ADE7B;
   padding-top: 1.8rem;
@@ -100,7 +102,7 @@
 }
 
 .left-arrow {
-  width: 4rem;
+  width: 5rem;
   height: 3rem;
   margin-right: 0.6rem;
   margin-top: 0.9rem;
@@ -118,7 +120,7 @@
   );
 }
 .bulid {
-  width: 15rem;
+  width: 17rem;
   height: 17rem;
   background-color: rgb(183, 233, 233);
   border: 0.1rem solid black;
@@ -143,7 +145,7 @@
   font-size: 0.8rem;
 }
 .unit-test {
-  width: 15rem;
+  width: 17rem;
   height: 17rem;
   background-color: rgb(183, 233, 233);
   border: 0.1rem solid black;
@@ -152,12 +154,24 @@
 }
 
 .functional-test {
-  width: 15rem;
+  width: 17rem;
   height: 17rem;
   background-color: rgb(183, 233, 233);
   border: 0.1rem solid black;
   text-align: center;
   padding-top: 0.3rem;
+}
+
+.result-section{
+  width: 17rem;
+  height: 17rem;
+  text-align: center;
+  padding-top: 0.3rem;
+
+}
+
+.result-section button {
+  margin-top:1rem;
 }
 
 .code-cover-box {
@@ -185,8 +199,28 @@
     margin-left: 0.8rem;
   }
   .systemData {
-    display: block;
-    justify-content:center;
+    align-items:center ;
+    display: block; 
+    justify-content: center !important;
+  }
+
+  .arrow-box{
+    width:20rem;
+    height: 20rem;
+    
+  }
+
+  .bulid{
+    width:20rem;
+    height: 20rem;
+  }
+  .unit-test{
+    width:20rem;
+    height: 20rem;
+  }
+  .functional-test{
+    width:20rem;
+    height: 20rem;
   }
 
   .progress{
