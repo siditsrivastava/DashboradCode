@@ -116,9 +116,9 @@ const SolutionBody = (props) => {
                         <h6>
                           Result
                         </h6>
-                       <p>Change Rejection</p>
-                       <h3>Reduction</h3>
-                       <button className="btn">Find Issues</button>
+                       <h6>{props.data.dataResult.completeresult}</h6>
+                       <h3>{props.data.dataResult.changeresult}</h3>
+                       <button className="btn">{props.data.dataResult.resultbutton}</button>
                   </div>
                 </div>
               </td>
@@ -197,9 +197,9 @@ const SolutionBody = (props) => {
                         <h6>
                           Result
                         </h6>
-                       <p>Change Rejection</p>
-                       <h3>Reduction</h3>
-                       <button className="btn">Find Issues</button>
+                       <h6>{props.data.dataResult.completeresult}</h6>
+                       <h3>{props.data.dataResult.changeresult}</h3>
+                       <button className="btn">{props.data.dataResult.resultbutton}</button>
                   </div>
                 </div>
               </td>
@@ -278,9 +278,9 @@ const SolutionBody = (props) => {
                         <h6>
                           Result
                         </h6>
-                       <p>Change Rejection</p>
-                       <h3>Reduction</h3>
-                       <button className="btn">Find Issues</button>
+                       <h6>{props.data.dataResult.completeresult}</h6>
+                       <h3>{props.data.dataResult.changeresult}</h3>
+                       <button className="btn">{props.data.dataResult.resultbutton}</button>
                   </div>
                 </div>
               </td>
@@ -359,9 +359,9 @@ const SolutionBody = (props) => {
                         <h6>
                           Result
                         </h6>
-                       <p>Change Rejection</p>
-                       <h3>Reduction</h3>
-                       <button className="btn">Find Issues</button>
+                       <h6>{props.data.dataResult.completeresult}</h6>
+                       <h3>{props.data.dataResult.changeresult}</h3>
+                       <button className="btn">{props.data.dataResult.resultbutton}</button>
                   </div>
                 </div>
               </td>

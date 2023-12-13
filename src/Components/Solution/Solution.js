@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Navbar from "../Navbar/Navbar";
 import itemsData from "../JOSN/IitemsData.json";
 import "./Solution.css";
@@ -9,7 +9,8 @@ const Solution = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar/>
+      <div>
       <table class="table">
         <thead class="">
           <tr>
@@ -27,6 +28,8 @@ const Solution = () => {
             return <SolutionCard items={items} />;
           })}
       </table>
+      </div>
+      
     </>
   );
 };

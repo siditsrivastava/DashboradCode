@@ -2,13 +2,15 @@
   width: auto;
   height: 100vh;
   background: url("../Image/home-image.jpg");
-  background-position:center;
+  background-position:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: black;
   background-size:cover;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  flex-wrap: wrap;
+  flex-flow:nowrap;
 }
 
 .header {
@@ -17,6 +19,7 @@
   padding-top: 15%;
   font-size: 3.75rem;
   margin-left: 2.1rem;
+  
 }
 
 .button-category button {

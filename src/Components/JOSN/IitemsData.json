@@ -18,7 +18,7 @@
       "workmanship": ""
     },
     "unittest": {
-      "result": "rejected",
+      "result": "pending",
       "piecharts": [
         {
           "value": "45"
@@ -40,6 +40,11 @@
         }
       ],
       "codecover": "70"
+    },
+    "dataResult": {
+      "completeresult":"Reduction",
+      "changeresult" :"change Result",
+      "resultbutton":"Find Issues"
     }
   },
   {
@@ -84,6 +89,11 @@
         }
       ],
       "codecover": "70"
+    },
+    "dataResult": {
+      "completeresult":"Pending",
+      "changeresult" :"change Result",
+      "resultbutton":"Check"
     }
   },
   {
@@ -128,6 +138,11 @@
         }
       ],
       "codecover": "95"
+    },
+    "dataResult": {
+      "completeresult":"Success",
+      "changeresult" :"change Result",
+      "resultbutton":"Congrats"
     }
   },
 
@@ -173,6 +188,12 @@
         }
       ],
       "codecover": "25"
+    },
+    "dataResult": {
+      "completeresult":"Ranning",
+      "changeresult" :"change Result",
+      "resultbutton":"Check Status"
     }
   }
+  
 ]

@@ -1,0 +1,13 @@
+.footer-title{
+    width:auto;
+    height:30px;
+    background-color: rgba(58, 58, 58, 0.523);
+    color: white;
+    text-align: center;
+    padding-top: 0.2rem;
+    position:sticky;
+}
+
+.footer-title p{
+    font-size: 1rem;
+}
